@@ -1,0 +1,49 @@
+
+
+.me{
+    background-color: #eee;
+}
+
+.about{
+    width: 90%;
+    margin: 60px auto;
+}
+.about ul {
+    font-size: 0;
+}
+
+.about ul li {
+    background-color: #fff;
+
+    width: 33%;
+    height: 0;
+    padding-top: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid #ddd;
+    margin-right:-2px;
+    margin-bottom:-2px;
+    position: relative;
+    text-align: center;
+}
+
+.about ul li div{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.about ul li div img{
+    width: 60px;
+    height: 60px;
+}
+
+.about ul li span{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    display: inline-block;
+}

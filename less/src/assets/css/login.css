@@ -1,0 +1,84 @@
+
+
+.icon-box{
+    text-align: center;
+    padding-top: 200px;
+    color: #ccc;
+    height: 200px;
+}
+.icon{
+    width: 200px;
+    height: 100px;
+}
+
+.str div{
+    font-size: 60px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+
+.str span{
+    font-size: 12px;
+}
+
+.phone, .passworld, .enterprise{
+    padding-top: 60px;
+}
+.phoneImg, .passworldImg, .enterpriseImg{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 26px;
+}
+input{
+    outline: 0;
+    color: #ccc;
+    font-size: 30px;
+    margin-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom:#666 1px solid;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-top-width:0px;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+.dl{
+    margin-top: 80px;
+    width: 450px;
+    height: 70px;
+    background-color: #0ff;
+    border: 0;
+    outline: none;
+    border-radius: 30px; 
+}
+
+.loginNav{
+    color: #ccc;
+    margin-top: 80px;
+    font-size: 32px;
+}
+
+.loginNav li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.in{
+    margin-top: 180px;
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    color: #ccc;
+}
+
+.login .router-link-exact-active{
+    color: #0ff;
+    border-bottom: 1px solid #0ff;
+}

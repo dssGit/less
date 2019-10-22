@@ -1,0 +1,73 @@
+
+
+.manage{
+    background-image: url("../images/bj.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    position: relative;
+}
+
+.manage .title{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 40px;
+}
+
+.manage-nav {
+    
+}
+
+.manage-nav li{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 32px;
+}
+
+.manage-nav li:nth-of-type(1){
+    transform: translateY(-400px)
+}
+
+.manage-nav li:nth-of-type(2){
+    
+    transform: rotate(-45deg) translateY(-400px) rotate(45deg)
+}
+
+.manage-nav li:nth-of-type(3){
+    transform: rotate(-90deg) translateY(-400px) rotate(90deg)
+}
+
+.manage-nav li:nth-of-type(4){
+    transform: rotate(-135deg) translateY(-400px) rotate(135deg)
+}
+
+.manage-nav li:nth-of-type(5){
+    transform: translateY(400px)
+}
+
+
+
+
+.manage-nav li span {
+    display: inline-block;
+    padding-right: 20px;
+    color: #fff; 
+}
+
+.manage-nav li div {
+
+}
+
+.manage-nav li img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle
+}
