@@ -1,5 +1,6 @@
 <template>
     <div class="censu" :style="{borderColor: bg}">
+        <div class="after" :style="{borderColor: bg}"></div>
         <div class="title">出勤（人）</div>
         <div class="titleNum">0</div>
         <ul :style="{backgroundColor: bg}">

@@ -38,7 +38,9 @@ export default {
         speed: 1000,
         pagination: {
           el: '.swiper-pagination',
-          clickable: true
+          clickable: true,
+          type: 'bullets',
+          paginationClickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
